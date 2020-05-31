@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <MessageContainer /> and compare with snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    ListFooterComponent={[Function]}
+    ListHeaderComponent={[Function]}
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "justifyContent": "flex-start",
+      }
+    }
+    data={Array []}
+    disableVirtualization={false}
+    enableEmptySections={true}
+    extraData={
+      Array [
+        null,
+        false,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    invertStickyHeaders={true}
+    inverted={true}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.1}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={100}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "transform": Array [
+            Object {
+              "scaleY": -1,
+            },
+          ],
+        },
+        Object {
+          "flex": 1,
+        },
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "scaleY": -1,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#f0f0f0",
+              "borderRadius": 15,
+              "height": 0,
+              "marginBottom": 0,
+              "marginLeft": 8,
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "translateY": 200,
+                },
+              ],
+              "width": 45,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                undefined,
+                Object {
+                  "marginLeft": 6,
+                  "marginTop": 7.2,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "position": "absolute",
+                  },
+                  undefined,
+                  Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.38)",
+                    "borderRadius": 4,
+                    "height": 8,
+                    "left": 2.5,
+                    "top": undefined,
+                    "width": 8,
+                  },
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "position": "absolute",
+                  },
+                  undefined,
+                  Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.38)",
+                    "borderRadius": 4,
+                    "height": 8,
+                    "left": 12,
+                    "top": undefined,
+                    "width": 8,
+                  },
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "position": "absolute",
+                  },
+                  undefined,
+                  Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.38)",
+                    "borderRadius": 4,
+                    "height": 8,
+                    "left": 21.5,
+                    "top": undefined,
+                    "width": 8,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "scaleY": -1,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
